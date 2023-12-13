@@ -49,7 +49,7 @@ public class StepDefinitions {
  @When("User click the login button")
  public void user_click_the_login_button() {
 	 driver.findElement(By.name("login")).click();
-    
+	 System.out.println("login button clicked");
  }
 
  @Then("validate the results")
