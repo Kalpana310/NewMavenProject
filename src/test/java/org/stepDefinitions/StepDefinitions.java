@@ -52,8 +52,8 @@ public class StepDefinitions {
     
  }
 
- @Then("validate the outcomes")
- public void validate_the_outcomes() {
+ @Then("validate the results")
+ public void validate_the_results() {
 	driver.close(); 
 	     
  }
